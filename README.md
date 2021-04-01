@@ -3,7 +3,7 @@
 ## Challenge 1
 ### Setup a project and create a contract
 
-DAIPool provides a service where people can deposit DAI and they will receive weekly rewards. Users must be able to take out their deposits along with the accrued rewards at any time. Rewards are created from a manual deposit by the DAIPool team each week.
+DAIPool provides a service where people can deposit DAI and they will receive weekly rewards. Users must be able to take out their deposits along with the accrued rewards at any time. Rewards are deposited into the pool by the DAIPool team each week (i.e. it is a trusted setup).
 
 Design and code a contract for DAIPool, take all the assumptions you need to move forward.
 
