@@ -1,12 +1,19 @@
 # Smart Contract Challenge
 
+## Challenge 1
 ### Setup a project and create a contract
 
-DAIPool provides a service where people can deposit DAI and they will receive weekly rewards. Users must be able to take out their deposits along with the accrued rewards at any time. The DAIPool team will deposit those rewards into the contract each week.
+DAIPool provides a service where people can deposit DAI and they will receive weekly rewards. Users must be able to take out their deposits along with the accrued rewards at any time. Rewards are created from a manual deposit by the DAIPool team each week.
 
 Design and code a contract for DAIPool, take all the assumptions you need to move forward.
 
 You can use any development tools you prefer: Hardhat, Truffle, Brownie.
+
+You can find testnet versions of DAI at the following addresses:
+- Goerli at 0xF2D1F94310823FE26cFa9c9B6fD152834b8E7849
+- Kovan at 0x7d669A64deb8a4A51eEa755bb0E19FD39CE25Ae9
+- Rinkeby at 0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8
+- Ropsten at 0x2D69aD895797C880abce92437788047BA0Eb7fF6
 
 ### Deploy your contract
 
@@ -18,6 +25,7 @@ Create a script to query the total amount of tokens held in the contract and the
 
 You can use any library you prefer: Ethers.js, Web3.js, Web3.py
 
+## Challenge 2
 ### Review a contract from the Graph Protocol
 
 The Graph Protocol is comprised of a number of core contracts that coordinates multiple stakeholders, providing them economic incentives for their participation.
