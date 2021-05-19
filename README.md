@@ -1,4 +1,4 @@
-# Smart Contract Challenge
+# Smart Contract Challenge (#1)
 
 ## Challenge 1
 ### Setup a project and create a contract
