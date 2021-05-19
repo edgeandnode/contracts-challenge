@@ -1,4 +1,4 @@
-# Smart Contract Challenge
+# Smart Contract Challenge (#2)
 
 ## A) Challenge 1
 
@@ -28,7 +28,7 @@ Create a script (or a Hardhat task) to query the total amount of ETH held in the
 
 You can use any library you prefer: Ethers.js, Web3.js, Web3.py, eth-brownie
 
-## B) Challenge 2 (bonus)
+## B) Challenge 2
 
 ### Create a subgraph
 
