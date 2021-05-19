@@ -32,7 +32,7 @@ You can use any library you prefer: Ethers.js, Web3.js, Web3.py, eth-brownie
 
 ### Create a subgraph
 
-Create a subgraph that index the main events of the contracts into entities as you see convenient.
+Create a subgraph that index the main events of the contract from the first challenge into entities as you see convenient. For example, it would be great to query all user deposits into the contract.
 
 ## Setup and organization
 
