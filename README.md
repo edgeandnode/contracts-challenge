@@ -1,40 +1,34 @@
-# Smart Contract Challenge (#2)
+# Smart Contract Challenge (#3)
 
-## A) Challenge 1
+### 1) Review a contract
 
-### Setup a project and create a contract
+The Graph Network uses a contract called **Curation** as part of the network incentives. Understand how it works, we will discuss about it during the challenge review.
 
-ETHPool provides a service where people can deposit ETH and they will receive weekly rewards. Users must be able to take out their deposits along with their portion of rewards at any time. New rewards are deposited into the pool by the ETHPool team each week (i.e. it is a trusted setup).
+The code is in this public repo: https://github.com/graphprotocol/contracts/blob/dev/contracts/curation/Curation.sol
 
-Design and code a contract for ETHPool, take all the assumptions you need to move forward.
+### 2) Interact with a contract
 
-You can use any development tools you prefer: Hardhat, Truffle, Brownie, Solidity, Vyper.
+Create scripts to perform the following actions using the Curation contract:
 
-Useful resources:
+- Mint new tokens for a subgraph deployment.
+- Query and print the defaultReserveRatio.
+- Query and print the total amount of Graph Tokens held in the contract.
+- Print a list of `Signalled()` events and its attributes emitted by the contract.
+
+> You can use any library you prefer: Ethers.js, Web3.js, Web3.py, eth-brownie and choose any language like TypeScript or Python.
+
+- Contracts are deployed in the Rinkeby Testnet. You will need Rinkeby ETH to send transactions.
+- Additionally you will need Rinkeby GRT. Send us your Ethereum address and we will send you some.
+- Curation contract address: `0x5cCaB32d30Ca0969a8f3D495e1F67b3A90d39b14`
+- GraphToken contract address: `0x54Fe55d5d255b8460fB3Bc52D5D676F9AE5697CD`
+
+## Useful resources
+
 - Solidity Docs: https://docs.soliditylang.org/en/v0.8.4
-- Educational Resource: https://github.com/austintgriffith/scaffold-eth
+- Educational Resources: https://github.com/austintgriffith/scaffold-eth
 - Project Starter: https://github.com/abarmat/solidity-starter
-
-### Deploy your contract
-
-Deploy the contract to any Ethereum testnet of your preference. Keep record of the deployed address.
-
-Bonus:
-- Verify the contract in Etherscan
-
-### Interact with the contract
-
-Create a script (or a Hardhat task) to query the total amount of ETH held in the contract.
-
-You can use any library you prefer: Ethers.js, Web3.js, Web3.py, eth-brownie
-
-## B) Challenge 2
-
-### Create a subgraph
-
-Create a subgraph that index the main events of the contract from the first challenge into entities as you see convenient. For example, it would be great to query all user deposits into the contract.
+- Block Explorer: https://rinkeby.etherscan.io
 
 ## Setup and organization
 
-You can work on a private GitHub repo and then share it with ariel@edgeandnode.com and david@edgeandnode.com
-Feel free to send any question while doing the exercise to any of the emails above.
+You can work on a private GitHub repo and then share it with @abarmat and @davekaj. Feel free to send any question while doing the exercise to any of the following emails ariel@edgeandnode.com and david@edgeandnode.com
