@@ -6,6 +6,11 @@ The Graph Network uses a contract called **Curation** as part of the network inc
 
 The code is in this public repo: https://github.com/graphprotocol/contracts/blob/dev/contracts/curation/Curation.sol
 
+Extra information about the protocol economics:
+- https://thegraph.com/blog/the-graph-network-in-depth-part-1
+- https://thegraph.com/blog/the-graph-network-in-depth-part-2
+
+
 ### 2) Interact with a contract
 
 Create scripts to perform the following actions using the Curation contract:
