@@ -26,6 +26,7 @@ Create scripts to perform the following actions using the **Curation** contract:
 
 - You will use contracts deployed in the Rinkeby Testnet. You will need Rinkeby ETH to send transactions. You can get some from https://faucet.rinkeby.io/
 - Additionally you will need Rinkeby GRT. Send us your Ethereum address and we will send you some.
+- You will find the interface to interact with the contracts in the `/abis` folder.
 
 ```
 > Curation contract
