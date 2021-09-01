@@ -26,7 +26,7 @@ Example:
 
 #### Goal
 
-Design and code a contract for ETHPool, take all the assumptions you need to move forward.
+Design and code a contract for ETHPool, take all the assumptions you need to move forward. Think about the most gas-efficient implementation you can.
 
 You can use any development tools you prefer: Hardhat, Truffle, Brownie, Solidity, Vyper.
 
@@ -46,7 +46,7 @@ Bonus:
 
 ### 3) Interact with the contract
 
-Create a script (or a Hardhat task) to query the total amount of ETH held in the contract.
+Create a script (or a Hardhat task) to query the total amount of ETH held in the contract and any other thing you find interesting.
 
 _You can use any library you prefer: Ethers.js, Web3.js, Web3.py, eth-brownie_
 
