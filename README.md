@@ -60,5 +60,5 @@ https://thegraph.com/docs/quick-start
 
 ## Setup and organization
 
-You can work on a private GitHub repo and then share it with ariel@edgeandnode.com and david@edgeandnode.com
-Feel free to send any question while doing the exercise to any of the emails above.
+You can work on a private GitHub repo and then share it with **abarmat** GitHub user.
+Feel free to send any question while doing the exercise.
