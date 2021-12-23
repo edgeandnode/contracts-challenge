@@ -26,7 +26,7 @@ Example:
 
 #### Goal
 
-Design and code a contract for ETHPool, take all the assumptions you need to move forward. Think about the most gas-efficient implementation you can.
+Design and code a contract for ETHPool, take all the assumptions you need to move forward. Bonus points for thinking about the most gas-efficient implementation you can.
 
 You can use any development tools you prefer: Hardhat, Truffle, Brownie, Solidity, Vyper.
 
@@ -46,17 +46,22 @@ Bonus:
 
 ### 3) Interact with the contract
 
-Create a script (or a Hardhat task) to query the total amount of ETH held in the contract and any other thing you find interesting.
+Create a script (or a Hardhat task) to query the total amount of ETH held in the contract and any other thing you may find interesting.
 
 _You can use any library you prefer: Ethers.js, Web3.js, Web3.py, eth-brownie_
 
 ## B) Challenge 2
 
-### Create a subgraph
+### Write a spec and proposal about the feature
 
-Create a subgraph that index users of the contract from the first challenge into entities as you see convenient. For example, it would be great to query all user deposits to the pool. You can be creative and add other information that you find relevant.
+Web3 projects often setup the governance process for protocol changes via a combination of a DAO, core contributors, community members and token holders. This means that any core contributor must first propose a change, share with the public, and then the proposal gets more validation as stakeholders spend time discussing the pros and cons.
 
-https://thegraph.com/docs/quick-start
+Create an Improvement Proposal by describing the work in Challenge #1. You can add any other relevant information that could help the community to decide
+
+Some examples:
+
+- https://forum.thegraph.com/t/gip-0020-unattestable-indexer-responses/2607
+- https://forum.thegraph.com/t/gip-0007-different-slashing-percentages-for-query-and-indexing-disputes/2020
 
 ## Setup and organization
 
