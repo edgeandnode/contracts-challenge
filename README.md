@@ -39,4 +39,4 @@ Take some time to review the code, understand what the contract is doing and be 
 
 ### Setup and organization
 
-You can work on a private GitHub repo in and then share it with ariel@edgeandnode.com and david@edgeandnode.com
+You can work on a private GitHub repo in and then share it with ariel@edgeandnode.com.
