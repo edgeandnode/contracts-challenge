@@ -57,7 +57,9 @@ _You can use any library you prefer: Ethers.js, Web3.js, Web3.py, eth-brownie_
 
 Web3 projects often setup the governance process for protocol changes via a combination of a DAO, core contributors, community members and token holders. This means that any core contributor must first propose a change, share with the public, and then the proposal gets more validation as stakeholders spend time discussing the pros and cons.
 
-Create an Improvement Proposal by describing the work in Challenge #1. You can add any other relevant information that could help the community to decide
+Create an Improvement Proposal by either describing the work in Challenge #1 or proposing a new feature/modification to it. You can add any other relevant information that could help the community to decide.
+
+Please do not post this document publicly, you should include it as a markdown file in the solution repo.
 
 Some examples:
 
@@ -66,5 +68,5 @@ Some examples:
 
 ## Setup and organization
 
-You can work on a private GitHub repo and then share it with **abarmat** GitHub user.
+You can work on a private GitHub repo and then share it with **pcarranzav**  and **tmigone** GitHub users.
 Feel free to send any question while doing the exercise.
