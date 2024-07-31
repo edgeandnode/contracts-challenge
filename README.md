@@ -1,6 +1,16 @@
 # Smart Contract Challenge (#5)
 
-## A) Challenge 1
+## Setup and logistics
+
+Congratulations on making it to this stage in the process! This challenge is designed to test your software engineering skills applied to smart contracts development. Below are some instructions for a coding challenge that involves writing a smart contract and interacting with it.
+
+You can work on a private GitHub repo and then share it with **pcarranzav**, **tmigone** and **Maikol** GitHub users.
+Document and validate your work in any ways you think work best.
+Feel free to send any questions that come up while doing the exercise. We recommend not spending more than 4 hours in this exercise, partial submissions are okay.
+
+We hope you find this task enjoyable, and appreciate the time and effort you put into this.
+
+## The Challenge
 
 ### 1) Setup a project and create a contract
 
@@ -53,9 +63,3 @@ Bonus:
 ### 3) Interact with the contract
 
 Create scripts (or Hardhat tasks) to stake some ETH, deposit ETH into the escrow, generate a voucher and collect a payment.
-
-## Setup and organization
-
-You can work on a private GitHub repo and then share it with **pcarranzav**, **tmigone** and **Maikol** GitHub users.
-Document and validate your work in any ways you think work best.
-Feel free to send any questions that come up while doing the exercise. We recommend not spending more than 4 hours in this exercise, partial submissions are okay.
