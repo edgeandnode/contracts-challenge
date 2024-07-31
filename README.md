@@ -1,6 +1,6 @@
 # Smart Contract Challenge (#5)
 
-## Setup and logistics
+## Introduction and logistics
 
 Congratulations on making it to this stage in the process! This challenge is designed to test your software engineering skills applied to smart contracts development. Below are some instructions for a coding challenge that involves writing a smart contract and interacting with it.
 
