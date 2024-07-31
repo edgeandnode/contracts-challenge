@@ -58,4 +58,4 @@ Create scripts (or Hardhat tasks) to stake some ETH, deposit ETH into the escrow
 
 You can work on a private GitHub repo and then share it with **pcarranzav**, **tmigone** and **Maikol** GitHub users.
 Document and validate your work in any ways you think work best.
-Feel free to send any question while doing the exercise. We recommend not spending more than 4 hours in this exercise, partial submissions are okay.
+Feel free to send any questions that come up while doing the exercise. We recommend not spending more than 4 hours in this exercise, partial submissions are okay.
