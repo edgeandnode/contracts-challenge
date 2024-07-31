@@ -19,12 +19,12 @@ Payers must previously deposit funds in the ETHPaymentEscrow contract as escrow.
 
 Example:
 
-> Let say we have user **A**, a Service Provider that sells bananas, and **B** a customer or Payer that wants bananas.
+> Let say we have user **Alice**, a Service Provider that sells bananas, and **Bob**, a customer or Payer that wants bananas.
 >
-> **A** stakes 0.0001 ETH on the ETHPaymentEscrow contract. **B** deposits 0.001 ETH in the ETHPaymentEscrow contract.
+> **Alice** stakes 0.0001 ETH on the ETHPaymentEscrow contract. **Bob** deposits 0.001 ETH in the ETHPaymentEscrow contract.
 >
-> **A** provides the service (ships some bananas to **B**), and **B** gives **A** a signed voucher to collect 0.0005 ETH as payment.
-> **A** collects the payment by posting the voucher to the ETHPaymentEscrow contract. 0.0005 ETH are sent from **A**'s escrow account on ETHPaymentEscrow to **B**'s address.
+> **Alice** provides the service (ships some bananas to **Bob**), and **Bob** gives **Alice** a signed voucher to collect 0.0005 ETH as payment.
+> **Alice** collects the payment by posting the voucher to the ETHPaymentEscrow contract. 0.0005 ETH are sent from **Alice**'s escrow account on ETHPaymentEscrow to **Bob**'s address.
 
 #### Goal
 
