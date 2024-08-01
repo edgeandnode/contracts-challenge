@@ -4,11 +4,12 @@
 
 Congratulations on making it to this stage in the process! This challenge is designed to test your software engineering skills applied to smart contracts development. Below are some instructions for a coding challenge that involves writing a smart contract and interacting with it.
 
-You can work on a private GitHub repo and then share it with **pcarranzav**, **tmigone** and **Maikol** GitHub users.
-Document and validate your work in any ways you think work best.
+You can work on a private GitHub repo and then share it with **pcarranzav**, **tmigone** and **Maikol** GitHub users. Document and validate your work in any ways you think work best.
 Feel free to send any questions that come up while doing the exercise. We recommend not spending more than 4 hours in this exercise, partial submissions are okay.
 
-We hope you find this task enjoyable, and appreciate the time and effort you put into this.
+We hope you find this task enjoyable, and appreciate the time and effort you put into this. We know life can be very busy so there's no hard deadline for this assignment. If you're not able to get it back to us within a week or two, please just give us a heads up.
+
+Good luck!
 
 ## The Challenge
 
@@ -16,8 +17,8 @@ We hope you find this task enjoyable, and appreciate the time and effort you put
 
 #### Context
 
-ETHPaymentEscrow provides a service where a Service Provider can stake some ETH to provide a service, and collect payments from a Payer.
-Payers must previously deposit funds in the ETHPaymentEscrow contract as escrow. Payers can then sign Vouchers (using an EIP-712 signed message) and send them off-chain to the Service Provider. The Service Provider can then post the Voucher on-chain to collect the payment.
+`ETHPaymentEscrow` allows "Service Providers" to stake some ETH to provide an off-chain service and collect payments from a "Payer".
+Payers must previously deposit funds in the `ETHPaymentEscrow` contract as escrow. Payers can then sign Vouchers (using an EIP-712 signed message) and send them off-chain to the Service Provider. The Service Provider can then post the Voucher on-chain to collect the payment.
 
 #### Requirements
 
@@ -34,7 +35,7 @@ Example:
 > **Alice** stakes 0.0001 ETH on the ETHPaymentEscrow contract. **Bob** deposits 0.001 ETH in the ETHPaymentEscrow contract.
 >
 > **Alice** provides the service (ships some bananas to **Bob**), and **Bob** gives **Alice** a signed voucher to collect 0.0005 ETH as payment.
-> **Alice** collects the payment by posting the voucher to the ETHPaymentEscrow contract. 0.0005 ETH are sent from **Alice**'s escrow account on ETHPaymentEscrow to **Bob**'s address.
+> **Alice** collects the payment by posting the voucher to the ETHPaymentEscrow contract. 0.0005 ETH are sent from **Bob**'s escrow account on ETHPaymentEscrow to **Alice**'s address.
 
 #### Goal
 
