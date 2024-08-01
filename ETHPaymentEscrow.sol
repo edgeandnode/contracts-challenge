@@ -2,9 +2,9 @@
 pragma solidity 0.8.19;
 
 /**
- * @title ETHPay
+ * @title ETHPaymentEscrow
  * @dev A simple contract to allow Service Providers to stake ETH and receive
- * payments from customers.
+ * payments from customers/payers.
  */
 contract ETHPaymentEscrow {
     /// Mapping between Service Provider addresses and their stake
@@ -20,7 +20,7 @@ contract ETHPaymentEscrow {
      * @notice Stake ETH to become a Service Provider
      */
     function stake() public payable {
-        require(msg.value >= minStake, "ETHPay: stake below minimum");
+        require(msg.value >= minStake, "ETHPaymentEscrow: stake below minimum");
         stakes[msg.sender] += msg.value;
         lastStaked[msg.sender] = block.timestamp;
     }
