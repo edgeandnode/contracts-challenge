@@ -39,11 +39,11 @@ Example:
 
 #### Goal
 
-Design and code a contract for ETHPaymentEscrow, feel free to ask any clarifying questions or to make all the assumptions you need to move forward. Bonus points for thinking about the most gas-efficient implementation you can.
+Design and code a contract for `ETHPaymentEscrow`, feel free to ask any clarifying questions or to make all the assumptions you need to move forward. Bonus points for thinking about the most gas-efficient implementation you can.
 
 Please use Solidity, but you can use any development tools you prefer: Foundry, Hardhat, OpenZeppelin contracts, etc.
 
-A template contract showing a possible implementation of the `stake()` function is available [here](./ETHPaymentEscrow.sol).
+A template contract showing an implementation of the `stake()` function is available [here](./ETHPaymentEscrow.sol).
 
 Useful resources:
 
