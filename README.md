@@ -48,7 +48,7 @@ A template contract showing an implementation of the `stake()` function is avail
 Useful resources:
 
 - OpenZeppelin Contracts documentation: https://docs.openzeppelin.com/contracts/4.x/
-- OpenZeppelin's EIP-712 implementation: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/cryptography/EIP712.sol
+- OpenZeppelin's EIP-712: https://docs.openzeppelin.com/contracts/5.x/api/utils#EIP712
 - Solidity Docs: https://docs.soliditylang.org/en/v0.8.19
 - Hardhat getting started: https://hardhat.org/hardhat-runner/docs/getting-started
 - Foundry getting started: https://book.getfoundry.sh/getting-started/installation
