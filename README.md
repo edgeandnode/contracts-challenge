@@ -4,7 +4,7 @@
 
 Congratulations on making it to this stage in the process! This challenge is designed to test your software engineering skills applied to smart contracts development. Below are some instructions for a coding challenge that involves writing a smart contract and interacting with it.
 
-You can work on a private GitHub repo and then share it with **pcarranzav**, **tmigone** and **Maikol** GitHub users. Document and validate your work in any ways you think work best.
+You can work on a private GitHub repo and then share it with **pcarranzav**, **tmigone**, **Maikol** and **RembrandtK** GitHub users. Document and validate your work in any ways you think work best.
 Feel free to send any questions that come up while doing the exercise. We recommend not spending more than 4 hours in this exercise, partial submissions are okay.
 
 We hope you find this task enjoyable, and appreciate the time and effort you put into this. We know life can be very busy so there's no hard deadline for this assignment. If you're not able to get it back to us within a week or two, please just give us a heads up.
